@@ -7,7 +7,8 @@ import { TonerModule } from './toner/toner.module';
 @Module({
   imports: [
     MongooseModule.forRoot('mongodb://localhost/gestion-toner'),
-    TonerModule,],
+    TonerModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
